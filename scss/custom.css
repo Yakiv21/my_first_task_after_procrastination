@@ -13484,6 +13484,10 @@ body {
   margin-bottom: 45px;
 }
 
+.title-product {
+  margin-bottom: 20px;
+}
+
 .custom-overview {
   width: 90px;
   height: 90px;
@@ -13491,7 +13495,11 @@ body {
 }
 
 .custom-list {
-  margin-bottom: 35px;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.33;
+  color: #1a1a1a;
+  margin-bottom: 45px;
 }
 
 .line-product {
