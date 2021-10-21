@@ -1,0 +1,20 @@
+%line {
+    width: 42px;
+    height: 2px;
+    background-image: linear-gradient(
+    to right,
+    #008ed6 42%,
+    #008ed6 50%,
+    rgba(255, 0, 0, 0) 50%,
+    rgba(255, 0, 0, 0) 52%,
+    #008ed6 52%,
+    );
+}
+
+%title {
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2;
+    text-transform: uppercase;
+}

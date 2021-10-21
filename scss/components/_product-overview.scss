@@ -1,3 +1,9 @@
+.title-product {
+    @extend %title
+
+    margin-bottom: 20px;
+}
+
 .custom-overview {
     width: 90px;
     height: 90px;
@@ -5,19 +11,20 @@
 }
 
 .custom-list {
-    margin-bottom: 35px;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.33;
+    color: #1a1a1a;
+
+    margin-bottom: 45px;
 }
 
-.line {
-    width: 42px;
-    color: #008ed6;
-    height: 2px;
-    margin-left: auto;
-    margin-right: auto;
+.line-product {
+    @extend %line;
+    // margin-right: auto;
+    // margin-left: auto;
+
     margin-bottom: 70px;
-    margin-top: 0%;
 }
 
-// .product-container {
-//     padding-bottom: 65px;
-// }
+

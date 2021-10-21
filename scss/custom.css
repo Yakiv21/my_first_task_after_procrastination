@@ -13388,11 +13388,31 @@ fieldset:disabled .btn {
   }
 }
 
+body {
+  background-color: #fff;
+  color: #999999;
+  font-family: Source Sans Pro, sans-serif;
+  letter-spacing: 0.03em;
+}
+
 .container {
   padding-top: 65px;
-  padding-right: auto;
   padding-bottom: 65px;
-  padding-left: auto;
+}
+
+.line-product {
+  width: 42px;
+  height: 2px;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(42%, #008ed6), color-stop(50%, #008ed6), color-stop(50%, rgba(255, 0, 0, 0)), color-stop(52%, rgba(255, 0, 0, 0)), color-stop(52%, #008ed6));
+  background-image: linear-gradient(to right, #008ed6 42%, #008ed6 50%, rgba(255, 0, 0, 0) 50%, rgba(255, 0, 0, 0) 52%, #008ed6 52%);
+}
+
+.hero-title, .title-product {
+  color: #008ed6;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 2;
+  text-transform: uppercase;
 }
 
 .navbar {
@@ -13412,6 +13432,58 @@ fieldset:disabled .btn {
   margin-left: auto;
 }
 
+.hero {
+  background-color: rgba(47, 48, 58, 0.8);
+  max-width: 1470px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/images/photo.jpg);
+}
+
+.hero-title {
+  margin-bottom: 30px;
+}
+
+.hero-title-secondary {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.15;
+  margin-bottom: 25px;
+}
+
+.hero-text {
+  font-size: 18px;
+  line-height: 1.44;
+  margin-bottom: 90px;
+}
+
+.btn-primary {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.1;
+  padding: 20px 25px;
+  margin-right: 20px;
+}
+
+.btn-outline-light {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.1;
+  padding: 20px 25px;
+}
+
+.hero-block {
+  margin-bottom: 90px;
+}
+
+.btn-hero {
+  margin-bottom: 45px;
+}
+
 .custom-overview {
   width: 90px;
   height: 90px;
@@ -13422,14 +13494,8 @@ fieldset:disabled .btn {
   margin-bottom: 35px;
 }
 
-.line {
-  width: 42px;
-  color: #008ed6;
-  height: 2px;
-  margin-left: auto;
-  margin-right: auto;
+.line-product {
   margin-bottom: 70px;
-  margin-top: 0%;
 }
 
 .icon {
@@ -13466,5 +13532,16 @@ fieldset:disabled .btn {
 
 .plans {
   background-image: url(/images/prostokąt.jpg);
+}
+
+.carousel-main {
+  background-image: url(/images/prostokąt.jpg);
+  max-width: 1440px;
+  height: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /*# sourceMappingURL=custom.css.map */

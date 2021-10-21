@@ -54,34 +54,38 @@
 
             <!--- HERO --->
 
-        <section class="container">
-            <div class=" col-5">
-                <h1>
-                    introducing lucid theme
-                </h1>
-                <h2>
-                    Carefully crafted and beautiful landing page.
-                </h2>
-                <p>
-                    Etiam ullamcorper et turpis eget hendrerit. Praesent varius risus mi, at elementum magna ultricies accumsan. Cras
-                    venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.
-                </p>
-            </div>
-            <div class="mt-6 col-5">
-                <button type="button" class="btn btn-primary">download now</button>
-                <button type="button" class="btn btn-outline-light">view features</button>
+        <section class="hero">
+            <div class="container">
+                <div class="col-5 hero-block">
+                    <h1 class="hero-title">
+                        introducing lucid theme
+                    </h1>
+                    <h2 class="hero-title-secondary">
+                        Carefully crafted and beautiful landing page.
+                    </h2>
+                    <p class="hero-text">
+                        Etiam ullamcorper et turpis eget hendrerit. Praesent varius risus mi, at elementum magna ultricies accumsan.
+                        Cras
+                        venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.
+                    </p>
+                </div>
+                <div class="col-5 btn-hero">
+                    <button type="button" class="btn btn-primary">DOWNLOAD NOW</button>
+                    <button type="button" class="btn btn-outline-light">VIEW FEAUTURES</button>
+                </div>
+
             </div>
         </section>
 
         <!--- PRODUCT OWERVIEW --->
 
         <section class="container product-container">
-            <h2 class="text-center"> product overview </h2>
+            <h2 class="text-center title-product"> product overview </h2>
             <h3 class="text-center custom-list">
                 List of amazing features
             </h3>
 
-            <hr class="line">
+            <div class="mx-auto line-product"></div>
 
             <div class="">
                 <ul class="row p-0">
@@ -155,6 +159,7 @@
                 <div class="col-5">
                     <h2 class="section-title">dip into the details</h2>
                     <h3 class="title-all">Beautiful on every device</h3>
+                    <div class="line-div"></div>
                     <p>
                         Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio
                         tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
@@ -189,68 +194,139 @@
 
         <!-- Super easy to customize-->
 
-        <section class="container customize">
-                    <div class="row">
+        <section class="">
+            <div class="container customize">
+                <div class="row">
                         <div class="col-5">
                             <h2 class="section-title">dip into the details</h2>
                             <h3 class="title-all">Super easy to customize</h3>
-                            
-                            <hr class="line line-customize">
-                            
+                    
+                            <div class="line-div"></div>
+                    
                             <p class="text-customize">
                                 Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec
                                 tellus a odio
                                 tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
-                            </p>               
+                            </p>
                         </div>
                         <div class="col-7">
                             <img src="./images/iphone5.jpg" class="rounded float-end" alt="">
                         </div>
-                    </div>
+                </div>
+            </div>
         </section>
+
                 <!--Pricings & Plans-->
 
-        <section class="container">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <section class="carousel-main">
+            <div class="container">
+            <!-- <img src="/images/prostokąt.jpg" class="d-block w-100" alt="..."> -->
+            <h2 class="text-center text-light">quality has its price</h2>
+            <h3 class="text-center text-light">Pricings & Plans</h3>
+            <div class="line-div"></div>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="/images/prostokąt.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Метка первого слайда</h5>
-                            <p>Некоторый репрезентативный заполнитель для первого слайда.</p>
+                <div class="carousel-inner2">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="row">
+                            <div class="col-6">
+                                <p class="text-light">Once upon a time all the Rivers combined to protest against the action of the
+                                    Sea in making their waters salt. “When we
+                                    come to you,” said they to the Sea.
+                                </p>
+                                <div>
+                                    <img src="./images/elipsa2.jpg" alt="">
+                                    <h4>John Doe</h4>
+                                    <p>CEO, THE RIVERS COMPANY</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <p class="text-light ">
+                                    A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're going to move is
+                                    quite dictated by your shoes.
+                                </p>
+                                    <div>
+                                        <img src="./images/elipsa3.jpg" alt="">
+                                        <h4>Dean Winchester</h4>
+                                        <p>UX DESIGNER, GOOGLE INC.</p>
+                                    </div>
+                            </div>
                         </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="row">
+                            <div class="col-6">
+                                <p class="text-light">Once upon a time all the Rivers combined to protest against the action of the
+                                    Sea in making their waters salt. “When we
+                                    come to you,” said they to the Sea.
+                                </p>
+                                <div>
+                                    <img src="./images/elipsa2.jpg" alt="">
+                                    <h4>John Doe</h4>
+                                    <p>CEO, THE RIVERS COMPANY</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <p class="text-light ">
+                                    A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're going
+                                    to move is
+                                    quite dictated by your shoes.
+                                </p>
+                                <div>
+                                    <img src="./images/elipsa3.jpg" alt="">
+                                    <h4>Dean Winchester</h4>
+                                    <p>UX DESIGNER, GOOGLE INC.</p>
+                                </div>
+                            </div>
+                        </div>
+            
+
                     </div>
                     <div class="carousel-item">
-                        <img src="/images/prostokąt.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Метка второго слайда</h5>
-                            <p>Некоторый репрезентативный заполнитель для второго слайда.</p>
+                        <div class="row overflow-hidden">
+                            <div class="col-6">
+                                <p class="text-light">Once upon a time all the Rivers combined to protest against the action of the
+                                    Sea in making their waters salt. “When we
+                                    come to you,” said they to the Sea.
+                                </p>
+                                <div class="">
+                                    <img src="./images/elipsa2.jpg" alt="John Doe">
+                                    <h4>John Doe</h4>
+                                    <p>CEO, THE RIVERS COMPANY</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <p class="text-light ">
+                                    A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're going
+                                    to move is
+                                    quite dictated by your shoes.
+                                </p>
+                                <div>
+                                    <img src="./images/elipsa3.jpg" alt="">
+                                    <h4>Dean Winchester</h4>
+                                    <p>UX DESIGNER, GOOGLE INC.</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/images/prostokąt.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Метка третьего слайда</h5>
-                            <p>Некоторый репрезентативный заполнитель для третьего слайда.</p>
-                        </div>
+            
+
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Предыдущий</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Следующий</span>
                 </button>
+            </div>
+
             </div>
         </section>
 
