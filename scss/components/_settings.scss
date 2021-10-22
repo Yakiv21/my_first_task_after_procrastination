@@ -1,3 +1,5 @@
+a, a:visited{text-decoration: none;}
+
 body {
     background-color: #fff;
     color: #999999;
@@ -12,3 +14,21 @@ body {
     // padding-right: auto;
     // padding-left: auto;
 }
+
+.title-primery {
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2;
+    text-transform: uppercase;
+
+    margin-bottom: 25px;
+}
+
+// .title-secondery {
+//     font-size: 36px;
+//     font-weight: 800;
+//     line-height: 1.33;
+//     color: #1a1a1a;
+//     margin-bottom: 45px;
+// }

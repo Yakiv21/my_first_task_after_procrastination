@@ -9,3 +9,15 @@
 .item-details {
     margin-bottom: 20px;
 }
+
+.title-sec-beutiful {
+    @extend %title-secondery;
+
+    margin-bottom: 35px;
+}
+
+.line-beautiful {
+    @extend %line;
+
+    margin-bottom: 30px;
+}

@@ -13388,6 +13388,10 @@ fieldset:disabled .btn {
   }
 }
 
+a, a:visited {
+  text-decoration: none;
+}
+
 body {
   background-color: #fff;
   color: #999999;
@@ -13400,7 +13404,16 @@ body {
   padding-bottom: 65px;
 }
 
-.line-product {
+.title-primery {
+  color: #008ed6;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 2;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.line-product, .line-beautiful, .line-customize, .line-price {
   width: 42px;
   height: 2px;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(42%, #008ed6), color-stop(50%, #008ed6), color-stop(50%, rgba(255, 0, 0, 0)), color-stop(52%, rgba(255, 0, 0, 0)), color-stop(52%, #008ed6));
@@ -13413,6 +13426,15 @@ body {
   font-weight: bold;
   line-height: 2;
   text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.title-sec-beutiful, .title-sec-customize, .title-sec-princing, .title-secondary-price {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 0.8;
+  color: #1a1a1a;
+  margin-bottom: 45px;
 }
 
 .navbar {
@@ -13450,7 +13472,7 @@ body {
 .hero-title-secondary {
   color: #fff;
   font-size: 48px;
-  font-weight: 900;
+  font-weight: 600;
   line-height: 1.15;
   margin-bottom: 25px;
 }
@@ -13461,7 +13483,7 @@ body {
   margin-bottom: 90px;
 }
 
-.btn-primary {
+.btn-primary-hero {
   font-size: 14px;
   font-weight: bold;
   line-height: 1.1;
@@ -13478,10 +13500,6 @@ body {
 
 .hero-block {
   margin-bottom: 90px;
-}
-
-.btn-hero {
-  margin-bottom: 45px;
 }
 
 .title-product {
@@ -13506,6 +13524,17 @@ body {
   margin-bottom: 70px;
 }
 
+.card-title {
+  font-size: 24px;
+  line-height: 0.83;
+  color: #1a1a1a;
+}
+
+.card-text {
+  font-size: 18px;
+  line-height: 1.44;
+}
+
 .icon {
   margin-right: 10px;
 }
@@ -13514,7 +13543,16 @@ body {
   margin-bottom: 20px;
 }
 
-.customize {
+.title-sec-beutiful {
+  margin-bottom: 35px;
+}
+
+.line-beautiful {
+  margin-bottom: 30px;
+}
+
+.section-customize {
+  max-width: 1440px;
   background-color: #f2f2f2;
 }
 
@@ -13523,23 +13561,25 @@ body {
   margin-bottom: 0px;
 }
 
-.title-all {
-  margin-top: 25px;
-  margin-bottom: 0px;
+.title-sec-customize {
+  margin-bottom: 30px;
 }
 
 .line-customize {
-  margin-top: 30px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 
 .text-customize {
-  margin-top: 30px;
   margin-bottom: 0px;
 }
 
 .plans {
   background-image: url(/images/prostokąt.jpg);
+}
+
+.title-sec-princing {
+  color: #fff;
+  margin-bottom: 30px;
 }
 
 .carousel-main {
@@ -13551,5 +13591,67 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.section-like {
+  max-width: 1440px;
+  background-color: #15141a;
+}
+
+.title-like {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.33;
+  color: #fff;
+}
+
+.title-answer {
+  font-weight: 300;
+}
+
+.title-secondary-price {
+  margin-bottom: 30px;
+}
+
+.line-price {
+  margin-bottom: 70px;
+}
+
+.card-price:not(:last-child) {
+  margin-right: 30px;
+}
+
+.link-price:hover .card-header {
+  color: blue;
+}
+
+.link-price:hover .title-price {
+  background-color: blue;
+  color: #fff;
+}
+
+.title-price {
+  padding-top: 45px;
+  padding-right: 93px;
+  padding-bottom: 35px;
+  padding-left: 93px;
+}
+
+.header-price {
+  font-size: 24px;
+  line-height: 0.83;
+  color: 1a1a1a;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+.discount {
+  font-size: 48px;
+  line-height: 0.45;
+  color: 1a1a1a;
+}
+
+.dollar {
+  font-size: 24px;
 }
 /*# sourceMappingURL=custom.css.map */

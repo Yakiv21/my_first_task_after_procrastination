@@ -1,0 +1,58 @@
+.title-secondary-price {
+    @extend %title-secondery;
+    
+    margin-bottom: 30px;
+}
+
+.line-price {
+    @extend %line;
+
+    margin-bottom: 70px;
+}
+
+
+.card-price {
+    &:not(:last-child) {
+    margin-right: 30px;
+}
+    // &:hover .card-title {
+    //     color: blue;
+    // }
+}
+
+
+.link-price {
+    &:hover .card-header {
+        color: blue;
+    }
+    &:hover .title-price {
+        background-color: blue;
+        color: #fff;
+    }
+}
+
+.title-price {
+    padding-top: 45px;
+    padding-right: 93px;
+    padding-bottom: 35px;
+    padding-left: 93px;
+}
+
+.header-price {
+    font-size: 24px;
+    line-height: 0.83;
+    color: 1a1a1a;
+
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.discount {
+    font-size: 48px;
+    line-height: 0.45;
+    color: 1a1a1a;
+}
+
+.dollar {
+    font-size: 24px;
+}

@@ -1,3 +1,11 @@
 .plans {
     background-image: url(/images/prostokąt.jpg);
 }
+
+.title-sec-princing {
+    @extend %title-secondery;
+    
+    color: #fff;
+
+    margin-bottom: 30px;
+}

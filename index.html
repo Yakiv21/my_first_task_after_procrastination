@@ -10,6 +10,7 @@
         <link
         href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Source+Sans+Pro:wght@400;600;700&display=swap"
         rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
             integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
@@ -55,8 +56,8 @@
             <!--- HERO --->
 
         <section class="hero">
-            <div class="container">
-                <div class="col-5 hero-block">
+            <div class="container px-0">
+                <div class="col-12 col-lg-5 hero-block">
                     <h1 class="hero-title">
                         introducing lucid theme
                     </h1>
@@ -70,7 +71,7 @@
                     </p>
                 </div>
                 <div class="col-5 btn-hero">
-                    <button type="button" class="btn btn-primary">DOWNLOAD NOW</button>
+                    <button type="button" class="btn btn-primary btn-primary-hero mb-3 mb-lg-0">DOWNLOAD NOW</button>
                     <button type="button" class="btn btn-outline-light">VIEW FEAUTURES</button>
                 </div>
 
@@ -79,8 +80,8 @@
 
         <!--- PRODUCT OWERVIEW --->
 
-        <section class="container product-container">
-            <h2 class="text-center title-product"> product overview </h2>
+        <section class="container product-container px-0">
+            <h2 class="text-center title-primery"> product overview </h2>
             <h3 class="text-center custom-list">
                 List of amazing features
             </h3>
@@ -89,27 +90,27 @@
 
             <div class="">
                 <ul class="row p-0">
-                    <li class="col-12 col-md-6 col-xl-3 card border-0" >
+                    <li class="col-12 col-md-6 col-xl-3 card border-0">
                         <div class="card-img-top d-flex justify-content-center align-items-center border rounded-circle custom-overview">
                             <svg width="32px" height="26px">
                                 <use href='./images/sprite.svg#icon-monitor'></use>
                             </svg>
                         </div>
                         <div class="card-body">
-                            <h3 class="text-center"> Responsive </h3>
+                            <h3 class="text-center card-title"> Responsive </h3>
                             <p class="card-text text-center">Fusce fermentum placerat magna ac pharetra.
                                 Aliquam euismod elit non ipsum lacinia consectetur.
                             </p>
                         </div>
                     </li>
-                    <li class="col-12 col-md-6 col-xl-3 card border-0" >
+                    <li class="col-12 col-md-6 col-xl-3 card border-0">
                         <div class="card-img-top d-flex justify-content-center align-items-center border rounded-circle custom-overview">
                             <svg width="32px" height="26px">
                                 <use href='./images/sprite.svg#icon-settings'></use>
                             </svg>
                         </div>
                         <div class="card-body">
-                            <h3 class="text-center"> Customizable </h3>
+                            <h3 class="text-center card-title"> Customizable </h3>
                             <p class="card-text text-center">Fusce fermentum placerat magna ac pharetra.
                                 Aliquam euismod elit non ipsum lacinia consectetur.
                             </p>
@@ -122,7 +123,7 @@
                             </svg>
                         </div>
                         <div class="card-body">
-                            <h3 class="text-center"> Lovely design </h3>
+                            <h3 class="text-center card-title"> Lovely design </h3>
                             <p class="card-text text-center">Fusce fermentum placerat magna ac pharetra.
                                 Aliquam euismod elit non ipsum lacinia consectetur.
                             </p>
@@ -135,7 +136,7 @@
                             </svg>
                         </div>
                         <div class="card-body">
-                            <h3 class="text-center"> Mobile Friendly </h3>
+                            <h3 class="text-center card-title"> Mobile Friendly </h3>
                             <p class="card-text text-center">Fusce fermentum placerat magna ac pharetra.
                                 Aliquam euismod elit non ipsum lacinia consectetur.
                             </p>
@@ -144,72 +145,77 @@
                     
                 </ul>
             </div>
-
-
         </section>
 
         <!-- Beautiful on every device -->
 
-        <section class="container">
-            <div class="row">
-                <div class="col-5">
-                    <img src="./images/devices.jpg" class="rounded float-end" alt="">
-                </div>
-                <div class="col-1"></div>
-                <div class="col-5">
-                    <h2 class="section-title">dip into the details</h2>
-                    <h3 class="title-all">Beautiful on every device</h3>
-                    <div class="line-div"></div>
-                    <p>
-                        Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio
-                        tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
-                    </p>
-
-                    <ul class="list-group "> 
-                        <li class="list-group-item border-0 p-0 item-details">
-                            <svg class="icon" width="16px" height="16px">
-                                <use href="./images/sprite.svg#icon-cup"></use>
-                            </svg>
-                            Awesome design</li>
-                        <li class="list-group-item border-0 p-0 item-details">
-                            <svg class="icon" width="16px" height="16px">
-                                <use href="./images/sprite.svg#icon-mouse"></use>
-                            </svg>
-                            Retina ready</li>
-                        <li class="list-group-item border-0 p-0 item-details">
-                            <svg class="icon" width="16px" height="16px">
-                                <use href="./images/sprite.svg#icon-energy"></use>
-                            </svg>
-                            Tons of features and easy to use</li>
-                        <li class="list-group-item border-0 p-0 item-details">
-                            <svg class="icon" width="16px" height="16px">
-                                <use href="./images/sprite.svg#icon-speedometer"></use>
-                            </svg>
-                            Fully responsive</li>
-                    </ul>
-
+        <section >
+            <div class="container px-0">
+                <div class="row">
+                    <div class="col-lg-5 d-none d-lg-block">
+                        <img src="./images/devices.jpg" class="rounded float-end" alt="">
+                    </div>
+                    <div class="d-none d-lg-block col-lg-1"></div>
+                    <div class="col-12 col-lg-5">
+                        <h2 class="title-primery text-center text-lg-start">dip into the details</h2>
+                        <h3 class="title-sec-beutiful text-center text-lg-start ">Beautiful on every device</h3>
+                        <div class="mx-auto mx-lg-0 mr-lg-auto line-beautiful"></div>
+                        <p class="text-center text-lg-start">
+                            Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
+                            odio
+                            tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+                        </p>
+                
+                        <ul class="list-group justify-content-evenly flex-row flex-wrap d-lg-block">
+                            <li class="list-group-item border-0 p-0 item-details ">
+                                <svg class="icon" width="16px" height="16px">
+                                    <use href="./images/sprite.svg#icon-cup"></use>
+                                </svg>
+                                Awesome design
+                            </li>
+                            <li class="list-group-item border-0 p-0 item-details">
+                                <svg class="icon" width="16px" height="16px">
+                                    <use href="./images/sprite.svg#icon-mouse"></use>
+                                </svg>
+                                Retina ready
+                            </li>
+                            <li class="list-group-item border-0 p-0 item-details">
+                                <svg class="icon" width="16px" height="16px">
+                                    <use href="./images/sprite.svg#icon-energy"></use>
+                                </svg>
+                                Tons of features and easy to use
+                            </li>
+                            <li class="list-group-item border-0 p-0 item-details">
+                                <svg class="icon" width="16px" height="16px">
+                                    <use href="./images/sprite.svg#icon-speedometer"></use>
+                                </svg>
+                                Fully responsive
+                            </li>
+                        </ul>
+                
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Super easy to customize-->
+        <!-- Super easy to CUSTOMIZE-->
 
-        <section class="">
-            <div class="container customize">
+        <section class="section-customize mx-auto">
+            <div class="container px-0">
                 <div class="row">
-                        <div class="col-5">
-                            <h2 class="section-title">dip into the details</h2>
-                            <h3 class="title-all">Super easy to customize</h3>
+                        <div class="col-12 col-lg-5">
+                            <h2 class="title-primery text-center text-lg-start">dip into the details</h2>
+                            <h3 class="text-center text-lg-start title-sec-customize">Super easy to customize</h3>
                     
-                            <div class="line-div"></div>
-                    
+                            <div class="mx-auto mx-lg-0 mr-lg-auto line-customize"></div>
+                            
                             <p class="text-customize">
-                                Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec
-                                tellus a odio
-                                tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
+                                Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio
+                                tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad
+                                litora torquent per conubia nostra, per inceptos himenaeos.                            
                             </p>
                         </div>
-                        <div class="col-7">
+                        <div class="col-lg-7 d-none d-lg-block">
                             <img src="./images/iphone5.jpg" class="rounded float-end" alt="">
                         </div>
                 </div>
@@ -218,12 +224,11 @@
 
                 <!--Pricings & Plans-->
 
-        <section class="carousel-main">
-            <div class="container">
-            <!-- <img src="/images/prostokąt.jpg" class="d-block w-100" alt="..."> -->
-            <h2 class="text-center text-light">quality has its price</h2>
-            <h3 class="text-center text-light">Pricings & Plans</h3>
-            <div class="line-div"></div>
+        <section class="carousel-main mx-auto">
+            <div class="container px-0">
+            <h2 class="text-center title-primery">quality has its price</h2>
+            <h3 class="text-center title-sec-princing">Pricings & Plans</h3>
+            <div class="mx-auto line-customize"></div>
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -326,6 +331,85 @@
                     <span class="visually-hidden">Следующий</span>
                 </button>
             </div>
+
+            </div>
+        </section>
+
+        <!--Like what you see?-->
+
+        <section class="section-like mx-auto">
+            <div class="container px-0">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <h2 class="title-like mb-3 mb-lg-0">Like what you see? <span class="title-answer">Get this great theme now!</span></h2>
+                    </div>
+                    <div class="col-12 col-lg-4 text-end">
+                            <button type="button" class="btn btn-primary btn-lg  ms-auto me-2">Large button</button>
+                            <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--PRICE-->
+
+        <section>
+            <div class="container px-0 mx-auto">
+                <h1 class="title-primery text-center">
+                    introducing lucid theme
+                </h1>
+                <h2 class="title-secondary-price text-center">
+                    Carefully crafted and beautiful landing page.
+                </h2>
+
+                <div class="mx-auto line-price"></div>
+               
+                <ul class="row m-0 p-0 list-price">
+                    <li class="card col-3 p-0 card-price" style="max-width: 16.875rem;">
+                        <a href="" class="link-price">
+                            <div class="card-header bg-transparent border-success text-center header-price">FREE</div>
+                            <div class="card-body text-success title-price">
+                                <h5 class="card-title m-0 d-flex discount"><span class="dollar text-end">&#36;</span>0</h5>
+                                <p class="m-0 month"><span>&frasl;</span> per month</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-success">Подвал</div>
+                        </a>
+                    </li>
+                    <li class="card col-3 p-0 card-price" style="max-width: 16.875rem;">
+                        <a href="" class="link-price">
+                            <div class="card-header bg-transparent border-success">FREE</div>
+                            <div class="card-body text-success">
+                                <h5 class="card-title">Success Заголовок карточки</h5>
+                                <p class="card-text">Несколько быстрых примеров текста для построения на основе Заголовок карточки и составления
+                                    основной части содержимого карточки.</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-success">Подвал</div>
+                        </a>
+
+                    </li>
+                    <li class="card col-3 p-0 card-price" style="max-width: 16.875rem;">
+                        <a href="" class="link-price">
+                            <div class="card-header bg-transparent border-success">FREE</div>
+                            <div class="card-body text-success">
+                                <h5 class="card-title">Success Заголовок карточки</h5>
+                                <p class="card-text">Несколько быстрых примеров текста для построения на основе Заголовок карточки и составления
+                                    основной части содержимого карточки.</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-success">Подвал</div>
+                        </a>
+                    </li>
+                    <li class="card col-3 p-0 card-price" style="max-width: 16.875rem;">
+                        <a href="" class="link-price">
+                            <div class="card-header bg-transparent border-success">FREE</div>
+                            <div class="card-body text-success">
+                                <h5 class="card-title">Success Заголовок карточки</h5>
+                                <p class="card-text">Несколько быстрых примеров текста для построения на основе Заголовок карточки и составления
+                                    основной части содержимого карточки.</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-success">Подвал</div>
+                        </a>
+                    </li>
+                </ul>
 
             </div>
         </section>
