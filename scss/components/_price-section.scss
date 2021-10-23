@@ -23,36 +23,92 @@
 
 .link-price {
     &:hover .card-header {
-        color: blue;
+        color: #008ed6;
     }
     &:hover .title-price {
-        background-color: blue;
+        background-color: #008ed6;
+        color: #fff;
+    }
+
+    &:hover .discount {
+        color: #fff;
+    }
+
+    &:hover .month {
+        color: #fff;
+    }
+
+    &:hover .btn-price {
+        background-color: #008ed6;
         color: #fff;
     }
 }
 
 .title-price {
     padding-top: 45px;
-    padding-right: 93px;
+    padding-right: 85px;
     padding-bottom: 35px;
-    padding-left: 93px;
+    padding-left: 85px;
+
+    // border-color: #999;
 }
 
 .header-price {
     font-size: 24px;
+    font-weight: 700;
     line-height: 0.83;
-    color: 1a1a1a;
+    color: #1a1a1a;
 
     padding-top: 30px;
     padding-bottom: 25px;
+
+    border-color: #999999;
 }
 
 .discount {
     font-size: 48px;
     line-height: 0.45;
-    color: 1a1a1a;
+    font-weight: 600;
+    color: #1a1a1a;
+
+    margin-bottom: 15px;
 }
 
 .dollar {
     font-size: 24px;
+    font-weight: 600;
+}
+
+.month {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.55;
+}
+
+.text-price {
+    font-size: 18px;
+    line-height: 1.44;
+    font-weight: 400;
+    color: #999999;
+
+    margin-bottom: 50px;
+}
+
+.footer-price {
+    padding-top: 52px;
+    padding-bottom: 30px;
+
+    border-color: #999999;
+}
+
+.btn-price {
+    font-size: 14px;
+    line-height: 0.8;
+    font-weight: 700;
+
+    background-color: #fff;
+    border: 1px solid #999999;
+    color: #008ed6;
+
+    padding: 20px 41px;
 }
