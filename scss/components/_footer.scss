@@ -1,0 +1,25 @@
+.footer {
+    background-color: #15141a;
+}
+.footer-container {
+    padding-top: 55px;
+    padding-bottom: 45px;
+}
+.social-footer {
+    margin-bottom: 30px;
+}
+
+.icon-footer {
+    fill: #38373c;
+
+    .company-link:hover & {
+        fill: #008ed6;
+    }
+}
+
+.copyright-footer {
+    color: #444348;
+
+    font-size: 14px;
+    line-height: 2;
+}

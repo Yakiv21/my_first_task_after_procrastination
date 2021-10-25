@@ -13417,7 +13417,7 @@ body {
   margin-bottom: 25px;
 }
 
-.line-product, .line-beautiful, .line-customize, .line-price {
+.line-product, .line-beautiful, .line-customize, .line-price, .line-contacts {
   width: 42px;
   height: 2px;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(42%, #008ed6), color-stop(50%, #008ed6), color-stop(50%, rgba(255, 0, 0, 0)), color-stop(52%, rgba(255, 0, 0, 0)), color-stop(52%, #008ed6));
@@ -13719,6 +13719,10 @@ body {
   color: inherit;
 }
 
+.line-contacts {
+  margin-bottom: 60px;
+}
+
 /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
 #map {
@@ -13814,5 +13818,32 @@ input[type="button"].button-secondary:hover {
   overflow: hidden;
   padding: 1rem;
   font-size: medium;
+}
+
+.footer {
+  background-color: #15141a;
+}
+
+.footer-container {
+  padding-top: 55px;
+  padding-bottom: 45px;
+}
+
+.social-footer {
+  margin-bottom: 30px;
+}
+
+.icon-footer {
+  fill: #38373c;
+}
+
+.company-link:hover .icon-footer {
+  fill: #008ed6;
+}
+
+.copyright-footer {
+  color: #444348;
+  font-size: 14px;
+  line-height: 2;
 }
 /*# sourceMappingURL=custom.css.map */

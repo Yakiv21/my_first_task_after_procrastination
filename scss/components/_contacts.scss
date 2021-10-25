@@ -8,3 +8,9 @@
 .text-address {
     color: inherit;
 }
+
+.line-contacts {
+    @extend %line;
+
+    margin-bottom: 60px;
+}
