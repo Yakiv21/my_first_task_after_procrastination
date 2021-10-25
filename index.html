@@ -367,7 +367,9 @@
                 </h2>
 
                 <div class="mx-auto line-price"></div>
-               
+               <!--
+                   col-12 col-md-6 col-xl-4 p-0 mb-3 card card-price
+               -->
                 <ul class="row m-0 p-0">
                     <li class="col-12 col-md-6 col-xl-4 p-0 mb-3 card card-price" style="max-width: 16.875rem;">
                         <a href="" class="link-price">
@@ -432,21 +434,65 @@
 
         <!--CONTACTS-->
 
-        <section class="contacts">
-            <div class="container">
-                <ul class="row">
-                    <li class="col-4">
-                        <svg class="icon" width="16px" height="16px">
-                            <use href="./images/sprite.svg#icon-"></use>
-                        </svg>
-                    </li>
-                    <li class="col-4"></li>
-                    <li class="col-4"></li>
-                </ul>
+        <section class="contacts px-0 mx-auto ">
+            <div class="container px-0 container-contacts">
+                <address>
+                    <ul class="row">
+                        <li class="col-1"></li>
+                        <li class="col-2 d-flex flex-column align-items-center">
+                            <svg class="icon mb-5" width="18px" height="32px">
+                                <use href="./images/sprite.svg#icon-phone"></use>
+                            </svg>
+                                <ul class="p-0">
+                                    <li class="text-center">
+                                        <a href="tel:4151245678" class="text-address">
+                                            Phone: (415) 124-5678
+                                        </a>
+                                    </li>
+                                    <li class="text-center">
+                                        <a href="tel:4121238290" class="text-address">
+                                            Fax: (412) 123-8290
+                                        </a>
+                                    </li>
+                                </ul>
+                        </li>
+                        <li class="col-2"></li>
+                        <li class="col-2 d-flex flex-column align-items-center">
+                            <svg class="icon mb-5" width="24px" height="32px">
+                                <use href="./images/sprite.svg#icon-pointer"></use>
+                            </svg>
+                            <p class="text-center">
+                                1001 Brickell Bay Dr.
+                                Suite 1900 <br>
+                                Miami, FL 33131
+                            </p>
+                        </li>
+                        <li class="col-2"></li>
+                        <li class="col-2 d-flex flex-column align-items-center">
+                            <svg class="icon mb-5" width="32px" height="22px">
+                                <use href="./images/sprite.svg#icon-envelope"></use>
+                            </svg>
+                            <a href="mailto:support@yourname.com" class="text-address">
+                                support@yourname.com
+                            </a>
+                        </li>
+                        <li class="col-1"></li>
+                    </ul>
+                </address>
             </div>
         </section>
 
-        <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+        <!--KARTA-->
+    <iframe
+    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5748.652355166859!2d25.356381243590228!3d50.75665804076159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1635170300547!5m2!1suk!2sua"
+    width="100%" height="365" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+    
+               <!--JS-->
+
+    <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 
 </html>
