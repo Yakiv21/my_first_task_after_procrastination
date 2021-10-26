@@ -1,3 +1,13 @@
+.bg-img {
+    background-image: url(/images/photo.jpg);
+
+    max-width: 100%;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .navbar {
     // max-width: 1170px;
     margin-left: auto;

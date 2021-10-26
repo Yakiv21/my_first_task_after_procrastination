@@ -1,15 +1,3 @@
-
-
-.bg-img {
-    background-image: url(/images/photo.jpg);
-
-    max-width: 1470px;
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 .hero-title {
     @extend %title;
 

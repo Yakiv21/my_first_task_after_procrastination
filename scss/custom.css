@@ -13445,6 +13445,14 @@ body {
   margin-bottom: 45px;
 }
 
+.bg-img {
+  background-image: url(/images/photo.jpg);
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .navbar {
   margin-left: auto;
   margin-right: auto;
@@ -13519,14 +13527,6 @@ a:hover, a:hover {
 
 .navbar-nav {
   margin-left: auto;
-}
-
-.bg-img {
-  background-image: url(/images/photo.jpg);
-  max-width: 1470px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -13616,7 +13616,6 @@ a:hover, a:hover {
 }
 
 .section-customize {
-  max-width: 1440px;
   background-color: #f2f2f2;
 }
 
@@ -13639,6 +13638,7 @@ a:hover, a:hover {
 
 .plans {
   background-image: url(/images/prostokąt.jpg);
+  max-width: auto;
 }
 
 .title-sec-princing {
@@ -13648,8 +13648,8 @@ a:hover, a:hover {
 
 .carousel-main {
   background-image: url(/images/prostokąt.jpg);
-  max-width: 1440px;
-  height: 640px;
+  max-width: 100%;
+  max-height: 640px;
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
@@ -13658,7 +13658,7 @@ a:hover, a:hover {
 }
 
 .section-like {
-  max-width: 1440px;
+  max-width: 100%;
   background-color: #15141a;
 }
 
