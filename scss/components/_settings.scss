@@ -1,6 +1,10 @@
 a, a:visited{text-decoration: none;}
 ul li{list-style: none;}
 
+a:hover,a:focus {
+    color: inherit !important;
+}
+
 body {
     background-color: #fff;
     color: #999999;

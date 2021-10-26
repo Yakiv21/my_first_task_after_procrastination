@@ -10,11 +10,17 @@
     margin-bottom: 70px;
 }
 
+.price-list {
+    margin: -15px;
+}
+
 
 .card-price {
-    &:not(:last-child) {
-    margin-right: 30px;
-}
+    margin: 15px;
+    
+    // &:not(:last-child) {
+    // margin-right: 30px;
+// }
     // &:hover .card-title {
     //     color: blue;
     // }
