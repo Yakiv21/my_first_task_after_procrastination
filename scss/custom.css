@@ -13448,7 +13448,6 @@ body {
 .navbar {
   margin-left: auto;
   margin-right: auto;
-  background-color: palegoldenrod;
 }
 
 .logo {
@@ -13522,15 +13521,12 @@ a:hover, a:hover {
   margin-left: auto;
 }
 
-.hero {
-  background-color: rgba(47, 48, 58, 0.8);
+.bg-img {
+  background-image: url(/images/photo.jpg);
   max-width: 1470px;
-  margin-left: auto;
-  margin-right: auto;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(/images/photo.jpg);
 }
 
 .hero-title {
