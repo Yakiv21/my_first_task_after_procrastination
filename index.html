@@ -445,8 +445,8 @@
 
         <!--CONTACTS-->
 
-        <section class="contacts px-0 mx-auto ">
-            <div class="container px-0 container-contacts">
+        <section class="contacts px-0 mx-auto position-relative">
+            <div class="container px-0 container-contacts ">
                 <h2 class="title-primery text-center">
                     stay in touch
                 </h2>
@@ -499,6 +499,24 @@
                         <li class="d-none d-lg-block col-1"></li>
                     </ul>
                 </address>
+            </div>
+            <div class="form position-absolute bottom-0 start-50 translate-middle-x">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
         </section>
 
