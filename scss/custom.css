@@ -13636,16 +13636,6 @@ a:hover, a:hover {
   margin-bottom: 0px;
 }
 
-.plans {
-  background-image: url(../images/prostokąt.jpg);
-  max-width: auto;
-}
-
-.title-sec-princing {
-  color: #fff;
-  margin-bottom: 30px;
-}
-
 .carousel-main {
   background-image: url(../images/prostokąt.jpg);
   max-width: 100%;
@@ -13655,6 +13645,11 @@ a:hover, a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.title-sec-princing {
+  color: #fff;
+  margin-bottom: 30px;
 }
 
 .section-like {
