@@ -13553,7 +13553,6 @@ a:hover, a:hover {
   font-weight: bold;
   line-height: 1.1;
   padding: 20px 25px;
-  margin-right: 20px;
 }
 
 .btn-outline-light {
@@ -13638,7 +13637,6 @@ a:hover, a:hover {
 }
 
 .plans {
-  background-image: url(../images/prostokąt.jpg);
   max-width: auto;
 }
 
