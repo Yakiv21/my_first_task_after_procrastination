@@ -13771,7 +13771,13 @@ a:hover, a:hover {
 }
 
 .container-contacts {
-  padding-bottom: 370px;
+  padding0bottom: 60px;
+}
+
+@media (min-width: 992px) {
+  .container-contacts {
+    padding-bottom: 370px;
+  }
 }
 
 .text-address {
@@ -13780,6 +13786,65 @@ a:hover, a:hover {
 
 .line-contacts {
   margin-bottom: 60px;
+}
+
+.registration-window {
+  background-color: #15141a;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .registration-window {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%) scale(1);
+            transform: translate(-50%) scale(1);
+    bottom: -60px;
+    width: 770px;
+    padding: 60px 85px 60px 75px;
+  }
+}
+
+input,
+input[type=text] {
+  background-color: #15141a !important;
+  border: 1px solid #606062 !important;
+  border-radius: 4px !important;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+  margin: 0 0px 20px 0 !important;
+  padding: 20px 18px !important;
+  font-family: inherit !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 1.14 !important;
+  width: 300px;
+}
+
+.comments {
+  background-color: #15141a;
+  font-family: inherit !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 1.14 !important;
+  width: 300px;
+  padding: 22px 22px;
+  resize: none;
+}
+
+.comments-text {
+  margin-bottom: 15px;
+}
+
+.btn-form {
+  font-family: inherit !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 1.14 !important;
+  background-color: #008ed6;
+  padding: 20px 33px;
 }
 
 /* Always set the map height explicitly to define the size of the div
