@@ -13416,7 +13416,7 @@ body {
   color: #008ed6;
   font-size: 14px;
   font-weight: bold;
-  line-height: 2;
+  line-height: 1;
   text-transform: uppercase;
   margin-bottom: 25px;
 }
@@ -13484,8 +13484,8 @@ a:hover, a:hover {
   display: block;
   color: #fff !important;
   font-weight: 600;
-  font-size: 18px;
-  line-height: 1.14;
+  font-size: 16px;
+  line-height: 1;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -13530,7 +13530,14 @@ a:hover, a:hover {
   margin-left: auto;
 }
 
+@media (min-width: 992px) {
+  .container-hero {
+    padding-bottom: 110px;
+  }
+}
+
 .hero-title {
+  line-height: 1;
   margin-bottom: 30px;
 }
 
@@ -13538,14 +13545,14 @@ a:hover, a:hover {
   color: #fff;
   font-size: 48px;
   font-weight: 600;
-  line-height: 1.15;
+  line-height: 1;
   margin-bottom: 25px;
 }
 
 .hero-text {
   font-size: 18px;
   line-height: 1.44;
-  margin-bottom: 90px;
+  margin-bottom: 60px;
 }
 
 .btn-primary-hero {
@@ -13562,10 +13569,6 @@ a:hover, a:hover {
   padding: 20px 25px;
 }
 
-.hero-block {
-  margin-bottom: 90px;
-}
-
 .title-product {
   margin-bottom: 20px;
 }
@@ -13579,9 +13582,9 @@ a:hover, a:hover {
 .custom-list {
   font-size: 36px;
   font-weight: 800;
-  line-height: 1.33;
+  line-height: 1;
   color: #1a1a1a;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
 }
 
 .line-product {
@@ -13599,12 +13602,17 @@ a:hover, a:hover {
   line-height: 1.44;
 }
 
+.img-beautiful {
+  margin-bottom: -48px;
+}
+
 .icon {
   margin-right: 10px;
 }
 
 .item-details {
   margin-bottom: 20px;
+  font-size: 18px;
 }
 
 .title-sec-beutiful {
@@ -13613,6 +13621,19 @@ a:hover, a:hover {
 
 .line-beautiful {
   margin-bottom: 30px;
+}
+
+.customize {
+  background-color: #f2f2f2;
+}
+
+.content-customize {
+  padding-top: 65px;
+}
+
+.img-customize {
+  margin-bottom: -46px;
+  margin-top: -32px;
 }
 
 .section-customize {
@@ -13633,6 +13654,7 @@ a:hover, a:hover {
 }
 
 .text-customize {
+  padding-right: 35px;
   margin-bottom: 0px;
 }
 
@@ -13666,6 +13688,29 @@ a:hover, a:hover {
 
 .title-answer {
   font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 1px solid;
+}
+
+.btn-primary-like {
+  background-color: inherit;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #444348;
+}
+
+.btn-primary-download {
+  background-color: #008ed6;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #008ed6;
 }
 
 .title-secondary-price {
@@ -13771,7 +13816,7 @@ a:hover, a:hover {
 }
 
 .container-contacts {
-  padding0bottom: 60px;
+  padding-bottom: 60px;
 }
 
 @media (min-width: 992px) {
@@ -13801,7 +13846,7 @@ a:hover, a:hover {
     left: 50%;
     -webkit-transform: translate(-50%) scale(1);
             transform: translate(-50%) scale(1);
-    bottom: -60px;
+    bottom: -85px;
     width: 770px;
     padding: 60px 85px 60px 75px;
   }

@@ -13,8 +13,34 @@
 .title-answer {
     font-weight: 300;
 
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-radius: 1px solid;
 }
 
-.button-like {
+.btn-primary-like {
+    background-color: inherit;
 
+    font-size: 14px;
+    line-height: 1;
+    font-weight: bold;
+
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    border: 1px solid #444348;
+}
+
+.btn-primary-download {
+    background-color: #008ed6;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: bold;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border: 1px solid #008ed6;
 }

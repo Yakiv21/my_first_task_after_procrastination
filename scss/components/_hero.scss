@@ -1,6 +1,13 @@
+.container-hero {
+    @include media-breakpoint-up(lg) {
+        padding-bottom: 110px;
+    } 
+}
+
 .hero-title {
     @extend %title;
 
+    line-height: 1;
     margin-bottom: 30px;
 }
 
@@ -8,7 +15,7 @@
     color: #fff;
     font-size: 48px;
     font-weight: 600;
-    line-height: 1.15;
+    line-height: 1;
 
     margin-bottom: 25px;
 }
@@ -17,7 +24,7 @@
     font-size: 18px;
     line-height: 1.44;
 
-    margin-bottom: 90px;
+    margin-bottom: 60px;
 }
 
 .btn-primary-hero {
@@ -26,8 +33,6 @@
     line-height: 1.1;
 
     padding: 20px 25px;
-
-    // margin-right: 20px;
 }
 
 .btn-outline-light {
@@ -37,9 +42,4 @@
 
     padding: 20px 25px;
 }
-.hero-block {
-    margin-bottom: 90px;
-}
-// .btn-hero {
-//     margin-bottom: 45px;
-// }
+
